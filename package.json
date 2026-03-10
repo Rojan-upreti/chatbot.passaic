@@ -1,0 +1,24 @@
+{
+  "name": "chatbot-api",
+  "version": "1.0.0",
+  "description": "Standalone SnapAssist chatbot API — wraps Anthropic Claude for SNAP Work Connect",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}
