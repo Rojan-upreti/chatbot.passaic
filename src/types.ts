@@ -21,7 +21,7 @@ export type UserContext = {
 
 export type ChatRequest = {
   messages: Message[]
-  userContext: UserContext
+  userContext?: UserContext
 }
 
 export type ChatResponse = {
